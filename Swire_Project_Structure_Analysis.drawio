@@ -280,7 +280,7 @@
           <mxGeometry x="880" y="90" width="240" height="80" as="geometry" />
         </mxCell>
         <mxCell id="aiB7XIpIryPraa5rpPmI-5" value="&lt;font style=&quot;font-size: 18px;&quot;&gt;&amp;lt;Project&amp;gt;&lt;br&gt;例如冷站A，空压机B，锅炉C...&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="1170" y="115" width="320" height="30" as="geometry" />
+          <mxGeometry x="1160" y="115" width="320" height="30" as="geometry" />
         </mxCell>
         <mxCell id="aiB7XIpIryPraa5rpPmI-6" value="&lt;font style=&quot;font-size: 18px;&quot;&gt;类型1&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="100" y="290" width="240" height="80" as="geometry" />
