@@ -322,39 +322,51 @@
     </mxGraphModel>
   </diagram>
   <diagram id="vkCi550xUhgKyh7x9czE" name="Interface">
-    <mxGraphModel dx="1552" dy="818" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1654" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1826" dy="962" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1654" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="jOcEB6cKpFoop5a54T3b-1" value="&lt;font style=&quot;font-size: 18px;&quot;&gt;项目层&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="100" y="90" width="240" height="80" as="geometry" />
+        <mxCell id="jOcEB6cKpFoop5a54T3b-4" value="&lt;span style=&quot;font-size: 18px;&quot;&gt;Body&lt;/span&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="50" y="300" width="240" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="jOcEB6cKpFoop5a54T3b-2" value="&lt;span style=&quot;font-size: 18px;&quot;&gt;站点层&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="358" y="90" width="240" height="80" as="geometry" />
+        <mxCell id="jOcEB6cKpFoop5a54T3b-21" value="&lt;span style=&quot;font-size: 18px;&quot;&gt;General&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="130" y="550" width="240" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="jOcEB6cKpFoop5a54T3b-3" value="&lt;font style=&quot;font-size: 18px;&quot;&gt;功能请求层&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="620" y="90" width="240" height="80" as="geometry" />
+        <mxCell id="jOcEB6cKpFoop5a54T3b-25" value="&lt;b style=&quot;font-size: 16px;&quot;&gt;&lt;font style=&quot;font-size: 16px;&quot;&gt;Json&lt;/font&gt;&lt;/b&gt;&lt;div style=&quot;font-size: 16px;&quot;&gt;&lt;font style=&quot;font-size: 16px;&quot;&gt;包含 针对某类设备的请求，是对冷负荷的请求，&lt;/font&gt;&lt;/div&gt;&lt;div style=&quot;font-size: 16px;&quot;&gt;&lt;font style=&quot;font-size: 16px;&quot;&gt;对设备性能曲线的拟合要求&lt;/font&gt;&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="310" y="310" width="462" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="jOcEB6cKpFoop5a54T3b-4" value="&lt;span style=&quot;font-size: 18px;&quot;&gt;Body&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="100" y="310" width="240" height="80" as="geometry" />
+        <mxCell id="jOcEB6cKpFoop5a54T3b-27" value="" style="swimlane;startSize=0;dashed=1;" vertex="1" parent="1">
+          <mxGeometry x="40" y="20" width="810" height="230" as="geometry" />
         </mxCell>
-        <mxCell id="jOcEB6cKpFoop5a54T3b-5" value="&lt;font style=&quot;font-size: 18px;&quot;&gt;&amp;lt;Project&amp;gt;&lt;br&gt;例如Swire, QZJD&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="60" y="200" width="320" height="30" as="geometry" />
+        <mxCell id="jOcEB6cKpFoop5a54T3b-1" value="&lt;font style=&quot;font-size: 18px;&quot;&gt;项目层&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="jOcEB6cKpFoop5a54T3b-27">
+          <mxGeometry x="10" y="20" width="240" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="jOcEB6cKpFoop5a54T3b-18" value="&lt;font style=&quot;font-size: 18px;&quot;&gt;&amp;lt;Station&amp;gt;&lt;br&gt;例如CPN，CPS&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="318" y="200" width="320" height="30" as="geometry" />
+        <mxCell id="jOcEB6cKpFoop5a54T3b-2" value="&lt;span style=&quot;font-size: 18px;&quot;&gt;站点层&lt;/span&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="jOcEB6cKpFoop5a54T3b-27">
+          <mxGeometry x="270" y="20" width="240" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="jOcEB6cKpFoop5a54T3b-19" value="&lt;font style=&quot;font-size: 18px;&quot;&gt;&amp;lt;Function&amp;gt;&lt;br&gt;例如Prediction_Model_Train, Prediction_Model_Inference,&lt;/font&gt;&lt;div&gt;&lt;font style=&quot;font-size: 18px;&quot;&gt;Strategy_Model_Train,&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font style=&quot;font-size: 18px;&quot;&gt;Strategy_Model_Inference&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font style=&quot;font-size: 18px;&quot;&gt;&lt;br&gt;&lt;/font&gt;&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="580" y="230" width="320" height="30" as="geometry" />
+        <mxCell id="jOcEB6cKpFoop5a54T3b-3" value="&lt;font style=&quot;font-size: 18px;&quot;&gt;功能请求层&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="jOcEB6cKpFoop5a54T3b-27">
+          <mxGeometry x="530" y="20" width="240" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="jOcEB6cKpFoop5a54T3b-21" value="&lt;span style=&quot;font-size: 18px;&quot;&gt;设备层&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="975" y="410" width="240" height="80" as="geometry" />
+        <mxCell id="jOcEB6cKpFoop5a54T3b-5" value="&lt;font style=&quot;font-size: 18px;&quot;&gt;&amp;lt;Project&amp;gt;&lt;br&gt;例如Swire, QZJD&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="jOcEB6cKpFoop5a54T3b-27">
+          <mxGeometry x="-30" y="130" width="320" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="jOcEB6cKpFoop5a54T3b-22" value="&lt;font style=&quot;font-size: 18px;&quot;&gt;&amp;lt;Station&amp;gt;&lt;br&gt;例如CPN，CPS&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="930" y="520" width="320" height="30" as="geometry" />
+        <mxCell id="jOcEB6cKpFoop5a54T3b-18" value="&lt;font style=&quot;font-size: 18px;&quot;&gt;&amp;lt;Station&amp;gt;&lt;br&gt;例如CPN，CPS&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="jOcEB6cKpFoop5a54T3b-27">
+          <mxGeometry x="230" y="130" width="320" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="jOcEB6cKpFoop5a54T3b-25" value="&lt;b&gt;Json&lt;/b&gt;&lt;div&gt;包含 针对某类设备的请求，是对冷负荷的请求，&lt;/div&gt;&lt;div&gt;对设备性能曲线的拟合要求&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="358" y="335" width="340" height="30" as="geometry" />
+        <mxCell id="jOcEB6cKpFoop5a54T3b-19" value="&lt;font style=&quot;font-size: 18px;&quot;&gt;&amp;lt;Function&amp;gt;&lt;br&gt;例如Prediction_Model_Train, Prediction_Model_Inference,&lt;/font&gt;&lt;div&gt;&lt;font style=&quot;font-size: 18px;&quot;&gt;Strategy_Model_Train,&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font style=&quot;font-size: 18px;&quot;&gt;Strategy_Model_Inference&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font style=&quot;font-size: 18px;&quot;&gt;&lt;br&gt;&lt;/font&gt;&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="jOcEB6cKpFoop5a54T3b-27">
+          <mxGeometry x="490" y="160" width="320" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="jOcEB6cKpFoop5a54T3b-29" value="&lt;span style=&quot;font-size: 16px;&quot;&gt;&lt;b&gt;这一层不需要我们来考虑，Adapter的内容&lt;/b&gt;&lt;/span&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="880" y="20" width="462" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="jOcEB6cKpFoop5a54T3b-30" value="&lt;span style=&quot;font-size: 18px;&quot;&gt;Cooling Station&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="950" y="460" width="240" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="jOcEB6cKpFoop5a54T3b-32" value="&lt;span style=&quot;font-size: 18px;&quot;&gt;Compressor&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1250" y="460" width="240" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="jOcEB6cKpFoop5a54T3b-35" value="&lt;span style=&quot;font-size: 18px;&quot;&gt;Project&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="50" y="460" width="240" height="80" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
