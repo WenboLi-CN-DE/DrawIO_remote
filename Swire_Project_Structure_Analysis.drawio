@@ -263,10 +263,61 @@
     </mxGraphModel>
   </diagram>
   <diagram id="vum5HO5R7B470zEkELSg" name="各部分约束关系">
-    <mxGraphModel dx="1562" dy="818" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1654" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1302" dy="682" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1654" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="5i3igZ81G9UJhbHZShYA-2" value="冷却塔" style="swimlane;childLayout=stackLayout;resizeParent=1;resizeParentMax=0;startSize=20;horizontal=0;horizontalStack=1;" vertex="1" parent="1">
+          <mxGeometry x="990" y="250" width="380" height="480" as="geometry" />
+        </mxCell>
+        <mxCell id="5i3igZ81G9UJhbHZShYA-3" value="正" style="swimlane;startSize=20;" vertex="1" parent="5i3igZ81G9UJhbHZShYA-2">
+          <mxGeometry x="20" width="180" height="480" as="geometry" />
+        </mxCell>
+        <mxCell id="5i3igZ81G9UJhbHZShYA-7" value="服务制冷机达到&lt;br&gt;更低的冷却水温度" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=#82b366;fillColor=#d5e8d4;" vertex="1" parent="5i3igZ81G9UJhbHZShYA-3">
+          <mxGeometry x="10" y="43" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="5i3igZ81G9UJhbHZShYA-4" value="负" style="swimlane;startSize=20;" vertex="1" parent="5i3igZ81G9UJhbHZShYA-2">
+          <mxGeometry x="200" width="180" height="480" as="geometry" />
+        </mxCell>
+        <mxCell id="5i3igZ81G9UJhbHZShYA-8" value="本身消耗电能" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=#b85450;fillColor=#f8cecc;" vertex="1" parent="5i3igZ81G9UJhbHZShYA-4">
+          <mxGeometry x="10" y="43" width="100" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="5i3igZ81G9UJhbHZShYA-10" value="启停策略限制" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=#b85450;fillColor=#f8cecc;" vertex="1" parent="5i3igZ81G9UJhbHZShYA-4">
+          <mxGeometry x="10" y="90" width="100" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="5i3igZ81G9UJhbHZShYA-11" value="开关机/增加风机&lt;br&gt;为了极致降低冷却水温度&lt;div&gt;是否消耗了更多的能量&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=#b85450;fillColor=#f8cecc;" vertex="1" parent="5i3igZ81G9UJhbHZShYA-4">
+          <mxGeometry x="10" y="140" width="160" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="5i3igZ81G9UJhbHZShYA-12" value="受湿球温度影响" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=#b85450;fillColor=#f8cecc;" vertex="1" parent="5i3igZ81G9UJhbHZShYA-4">
+          <mxGeometry x="10" y="220" width="110" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="5i3igZ81G9UJhbHZShYA-14" value="制冷机" style="swimlane;childLayout=stackLayout;resizeParent=1;resizeParentMax=0;startSize=20;horizontal=0;horizontalStack=1;" vertex="1" parent="1">
+          <mxGeometry x="300" y="250" width="380" height="480" as="geometry" />
+        </mxCell>
+        <mxCell id="5i3igZ81G9UJhbHZShYA-15" value="正" style="swimlane;startSize=20;" vertex="1" parent="5i3igZ81G9UJhbHZShYA-14">
+          <mxGeometry x="20" width="180" height="480" as="geometry" />
+        </mxCell>
+        <mxCell id="5i3igZ81G9UJhbHZShYA-16" value="直接为用户提供冷源" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=#82b366;fillColor=#d5e8d4;" vertex="1" parent="5i3igZ81G9UJhbHZShYA-15">
+          <mxGeometry x="10" y="43" width="130" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="5i3igZ81G9UJhbHZShYA-17" value="负" style="swimlane;startSize=20;" vertex="1" parent="5i3igZ81G9UJhbHZShYA-14">
+          <mxGeometry x="200" width="180" height="480" as="geometry" />
+        </mxCell>
+        <mxCell id="5i3igZ81G9UJhbHZShYA-18" value="本身消耗电能" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=#b85450;fillColor=#f8cecc;" vertex="1" parent="5i3igZ81G9UJhbHZShYA-17">
+          <mxGeometry x="10" y="43" width="100" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="5i3igZ81G9UJhbHZShYA-19" value="启停策略限制" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=#b85450;fillColor=#f8cecc;" vertex="1" parent="5i3igZ81G9UJhbHZShYA-17">
+          <mxGeometry x="10" y="90" width="100" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="5i3igZ81G9UJhbHZShYA-20" value="受水的流量影响" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=#b85450;fillColor=#f8cecc;" vertex="1" parent="5i3igZ81G9UJhbHZShYA-17">
+          <mxGeometry x="10" y="140" width="110" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="5i3igZ81G9UJhbHZShYA-21" value="受冷却水温度的影响" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=#b85450;fillColor=#f8cecc;" vertex="1" parent="5i3igZ81G9UJhbHZShYA-17">
+          <mxGeometry x="10" y="190" width="130" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="5i3igZ81G9UJhbHZShYA-23" value="自身冷机数量和体积" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=#b85450;fillColor=#f8cecc;" vertex="1" parent="5i3igZ81G9UJhbHZShYA-17">
+          <mxGeometry x="10" y="240" width="130" height="30" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
